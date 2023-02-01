@@ -35,7 +35,6 @@ sizez = 8500*au
 rhoc = 9e-18  # g cm^-3
 rc = 8500*au
 n = 2
-rho_max = 1e-14
 #
 # Star parameters
 #
@@ -62,12 +61,6 @@ yy = qq[1]
 zz = qq[2]
 rr = np.sqrt(xx**2+yy**2+zz**2)
 rhod = rhoc*(rr/rc)**(-n)
-# print(rhod)
-# print('*****************************')
-# rhod_flat = rhod.flatten()
-# for i, value in enumerate(rhod_flat):
-#     if value > 1e-14:
-#         value = 1e-14
 #
 # wavelength which I want to calculate over
 #
