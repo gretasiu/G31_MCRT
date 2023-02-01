@@ -1,0 +1,94 @@
+  
+ ================================================================
+      WELCOME TO RADMC-3D: A 3-D CONTINUUM AND LINE RT SOLVER    
+                                                                 
+                          VERSION 2.0                            
+                                                                 
+                (c) 2008-2020 Cornelis Dullemond                 
+                                                                 
+       Please feel free to ask questions. Also please report     
+        bugs and/or suspicious behavior without hestitation.     
+      The reliability of this code depends on your vigilance!    
+                    dullemond@uni-heidelberg.de                  
+                                                                 
+   To keep up-to-date with bug-alarms and bugfixes, register to  
+                     the RADMC-3D forum:                         
+            http://radmc3d.ita.uni-heidelberg.de/phpbb/          
+                                                                 
+              Please visit the RADMC-3D home page at             
+  http://www.ita.uni-heidelberg.de/~dullemond/software/radmc-3d/ 
+ ================================================================
+  
+ Number of processors:           40
+ Number of threads in use:           40
+ Reading global frequencies/wavelengths...
+ Reading grid file and prepare grid tree...
+ Reading star data...
+ Note: Star 1 is taken to be a blackbody star
+       at a temperature T = 35716. Kelvin
+ Grid information (current status):
+   We have 32768 branches, of which 32768 are actual grid cells.
+   ---> 100.000% mem use for branches, and 100.000% mem use for actual cells.
+   No grid refinement is active. The AMR tree is not allocated (this saves memor
+ y).
+ Reading the heat source spatial distribution...
+ Beware: The OpenMP-parallel acceleration of RADMC-3D has 
+         not yet been tested with all of the modes and
+         features that RADMC-3D offers. Please check 
+         your parallel results against the serial version
+         (i.e. compiling without -fopenmp). 
+ Reading dust data...
+ Note: Opacity file dustkappa_sg-a10um.inp does not cover the 
+       complete wavelength range of the model (i.e. the range
+       in the file frequency.inp or wavelength_micron.inp).
+       Range of model:     lambda = [ 0.10E-09, 0.11E+05]
+       Range in this file: lambda = [ 0.10E+00, 0.20E+05]
+       Simple extrapolations are used to extend this range.
+ Reading dust densities...
+ Dust mass total =    139.560095972700       Msun
+ Using dust scattering mode            2
+ Computing emissivity database...
+ Computing total input luminosities...
+ Modified Random Walk mode is switched OFF
+  
+ Starting the thermal Monte Carlo simulation....
+ Thread Nr           0 of          40 threads in total
+ Thread Nr          36 of          40 threads in total
+ Thread Nr          32 of          40 threads in total
+ Thread Nr          27 of          40 threads in total
+ Thread Nr          17 of          40 threads in total
+ Thread Nr          26 of          40 threads in total
+ Thread Nr           2 of          40 threads in total
+ Thread Nr          21 of          40 threads in total
+ Thread Nr           9 of          40 threads in total
+ Thread Nr          16 of          40 threads in total
+ Thread Nr          12 of          40 threads in total
+ Thread Nr          31 of          40 threads in total
+ Thread Nr           7 of          40 threads in total
+ Thread Nr           8 of          40 threads in total
+ Thread Nr          15 of          40 threads in total
+ Thread Nr          24 of          40 threads in total
+ Thread Nr          28 of          40 threads in total
+ Thread Nr          19 of          40 threads in total
+ Thread Nr          34 of          40 threads in total
+ Thread Nr          11 of          40 threads in total
+ Thread Nr          39 of          40 threads in total
+ Thread Nr           5 of          40 threads in total
+ Thread Nr          20 of          40 threads in total
+ Thread Nr          14 of          40 threads in total
+ Thread Nr          22 of          40 threads in total
+ Thread Nr          29 of          40 threads in total
+ Thread Nr          10 of          40 threads in total
+ Thread Nr          35 of          40 threads in total
+ Thread Nr          18 of          40 threads in total
+ Thread Nr           6 of          40 threads in total
+ Thread Nr           1 of          40 threads in total
+ Thread Nr          25 of          40 threads in total
+ Thread Nr          13 of          40 threads in total
+ Thread Nr          23 of          40 threads in total
+ Thread Nr          30 of          40 threads in total
+ Thread Nr           4 of          40 threads in total
+ Thread Nr           3 of          40 threads in total
+ Thread Nr          37 of          40 threads in total
+ Thread Nr          38 of          40 threads in total
+ Thread Nr          33 of          40 threads in total
