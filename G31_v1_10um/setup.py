@@ -22,7 +22,7 @@ nphot_scat = 1e6
 #
 # Grid parameters
 #
-nx = 32  # number of cell on x axis; number of cell scaling with the values from exmaple
+nx = 32  # number of cell on x axis
 ny = 32
 nz = 32
 sizex = 8500*au
